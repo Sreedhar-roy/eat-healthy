@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .main-section{
-    margin:80px 70px;
+    margin:80px 0px;
 }
 .main-box{
     display:flex;
@@ -42,4 +42,27 @@ body{
 }
 #image-background{
     background-image:url(image/Frame\ 58.jpg);
+}
+#my-recipies{
+    text-align:center;
+    margin:0 auto;
+    width:50%;
+    margin-bottom:20px;
+}
+.box-image{
+    width:100%;
+    max-width: 100%;
+}
+.recipies-box{
+    display:flex;
+    margin:0px 60px;
+}
+.recipies-title{
+    margin:0;
+}
+.recipies-jar{
+    margin:10px;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:2px 2px 6px grey;
 }
